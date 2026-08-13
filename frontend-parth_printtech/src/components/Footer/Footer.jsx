@@ -18,20 +18,14 @@ const Footer = () => {
           <div className={styles.brandCol}>
             <div className={styles.logoWrapper}>
               <Link href="/" className={styles.logoLink}>
-                <div className={styles.logoIconWrapper}>
-                  <Image
-                    src="/images/logo.png"
-                    alt="Parth Printtech Logo"
-                    className={styles.logoImageRaw}
-                    width={72}
-                    height={72}
-                    priority
-                  />
-                </div>
-                <div className={styles.logoText}>
-                  <span className={styles.logoParth}>PARTH</span>
-                  <span className={styles.logoPrinttech}>PRINTTECH LLP</span>
-                </div>
+                <Image
+                  src="/logo/san.png"
+                  alt="Parth Printtech Logo"
+                  className={styles.logoImageRaw}
+                  width={260}
+                  height={52}
+                  priority
+                />
               </Link>
             </div>
             <p className={styles.brandDesc}>

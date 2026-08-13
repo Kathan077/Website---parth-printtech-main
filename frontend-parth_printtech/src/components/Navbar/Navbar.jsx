@@ -35,20 +35,14 @@ const Navbar = () => {
             <div className={styles.navbarInner}>
                 <div className={styles.logoContainer}>
                     <Link href="/" className={styles.logoLink} onClick={closeMenu}>
-                        <div className={styles.logoIconWrapper}>
-                            <Image
-                                src="/images/logo.png"
-                                alt="Parth Printtech Logo"
-                                className={styles.logoImageRaw}
-                                width={72}
-                                height={72}
-                                priority
-                            />
-                        </div>
-                        <div className={styles.logoText}>
-                            <span className={styles.logoParth}>PARTH</span>
-                            <span className={styles.logoPrinttech}>PRINTTECH LLP</span>
-                        </div>
+                        <Image
+                            src="/logo/san.png"
+                            alt="Parth Printtech Logo"
+                            className={styles.logoImageRaw}
+                            width={240}
+                            height={48}
+                            priority
+                        />
                     </Link>
                 </div>
 

@@ -33,10 +33,7 @@
 
 .logoLink {
   display: flex;
-  flex-direction: column;
-  align-items: center; /* Center-align logo text under icon */
-  justify-content: center;
-  gap: 2px;
+  align-items: center;
   text-decoration: none;
   transition: transform 0.3s ease;
 }
@@ -45,52 +42,12 @@
   transform: scale(1.02);
 }
 
-.logoIconWrapper {
-  width: 65px;
-  height: 65px;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-
 .logoImageRaw {
-  position: absolute;
-  top: 0px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 65px;
-  height: 65px;
-  object-fit: cover;
-  object-position: top;
+  height: 52px;
+  width: auto;
+  max-width: 260px;
+  object-fit: contain;
   display: block;
-}
-
-.logoText {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center-align the text lines */
-  gap: 3px;
-  white-space: nowrap;
-}
-
-.logoParth {
-  font-family: Rockwell, "Rockwell Nova", "Roboto Slab", serif;
-  font-size: 1.8rem; /* Scaled up */
-  font-weight: 900;
-  color: #009fe3;
-  letter-spacing: 0.01em;
-  line-height: 1;
-}
-
-.logoPrinttech {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.05rem; /* Scaled up */
-  font-weight: 600;
-  color: #6e5b53;
-  letter-spacing: 0.04em;
-  line-height: 1;
 }
 
 .brandDesc {
