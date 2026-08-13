@@ -59,7 +59,7 @@ const categories = [
     photo: "/images/products/petg_shrink_sleeves.png",
     frameShape: "shapeWrap",
     specs: [
-      { label: "Substrate", value: "Eco-Friendly PETG Polyester" },
+      { label: "Substrate", value: "Eco-Friendly PET G Film" },
       { label: "Shrinkage Rate", value: "Up to 70% - 78% Max" },
       { label: "Print Process", value: "Narrow-Web Gravure / UV Flexo" },
       { label: "Sustainability", value: "100% Recyclable / Low Carbon" }
@@ -84,9 +84,9 @@ const categories = [
     photo: "/images/products/bopp_label.png",
     frameShape: "shapeHexagon",
     specs: [
-      { label: "Substrate", value: "BOPP (Clear, White, Metallic)" },
+      { label: "Substrate", value: "BOPP (Natural & Pearlised)" },
       { label: "Film Thickness", value: "35 to 50 Microns" },
-      { label: "Print Technology", value: "CI Wide-Web Flexo / Offset" },
+      { label: "Print Process", value: "Gravure" },
       { label: "Adhesive Match", value: "Hot-Melt Glue System Compatible" }
     ]
   },
@@ -134,8 +134,8 @@ const categories = [
     frameShape: "shapeWrap",
     specs: [
       { label: "Substrate", value: "Premium Grade Plain PVC" },
-      { label: "Shrinkage Rate", value: "Up to 50% - 55%" },
-      { label: "Format", value: "Rolls / Centerfold" },
+      { label: "Shrinkage Rate", value: "Up to 40% - 45%" },
+      { label: "Format", value: "Roll Form & Cut Pieces (As per Requirement)" },
       { label: "Layflat Range", value: "30mm to 600mm" }
     ]
   }
@@ -397,9 +397,9 @@ const productUsesData = [
       { badge: "Barcode Zone", detail: "High-density QR & UPC barcode scanning clarity." }
     ],
     specs: [
-      { label: "Substrate", value: "Pearlized / Clear / Metallic BOPP" },
+      { label: "Substrate", value: "BOPP (Natural & Pearlised)" },
       { label: "Thickness", value: "35 - 45 Microns" },
-      { label: "Line Speed", value: "Ultra-High Rotary Feed" },
+      { label: "Print Process", value: "Gravure" },
       { label: "Cost Profile", value: "Lowest Cost Per Unit for Bulk" }
     ]
   },

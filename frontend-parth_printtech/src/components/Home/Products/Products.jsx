@@ -33,7 +33,7 @@ const productsData = [
     image: "/images/products/petg_shrink_sleeves.png",
     accentColor: "#e3007b",
     specs: [
-      { label: "Substrate", value: "Eco-Friendly PETG Polyester" },
+      { label: "Substrate", value: "Eco-Friendly PET G Film" },
       { label: "Shrinkage Rate", value: "Up to 70% - 78% Max" },
       { label: "Print Process", value: "Gravure / UV Flexo" },
       { label: "Sustainability", value: "100% Recyclable" }
@@ -47,9 +47,9 @@ const productsData = [
     image: "/images/products/bopp_label.png",
     accentColor: "#ffd400",
     specs: [
-      { label: "Substrate", value: "BOPP (Clear, White, Metallic)" },
+      { label: "Substrate", value: "BOPP (Natural & Pearlised)" },
       { label: "Film Thickness", value: "35 to 50 Microns" },
-      { label: "Print Process", value: "CI Wide-Web Flexo" },
+      { label: "Print Process", value: "Gravure" },
       { label: "Adhesive Match", value: "Hot-Melt Glue System" }
     ]
   },
@@ -76,8 +76,8 @@ const productsData = [
     accentColor: "#4f46e5",
     specs: [
       { label: "Substrate", value: "Premium Grade Plain PVC" },
-      { label: "Shrinkage Rate", value: "Up to 50% - 55%" },
-      { label: "Format", value: "Rolls / Centerfold" },
+      { label: "Shrinkage Rate", value: "Up to 40% - 45%" },
+      { label: "Format", value: "Roll Form & Cut Pieces (As per Requirement)" },
       { label: "Appearance", value: "Super Clear / High Gloss" }
     ]
   }

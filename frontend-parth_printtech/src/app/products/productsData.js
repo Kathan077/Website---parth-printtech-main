@@ -31,7 +31,7 @@ export const productsData = [
     regMark: "REG-PETG-02",
     detailedDescription: "For products requiring extreme shrinkage profiles and absolute clarity, our PETG (Polyethylene Terephthalate Glycol) sleeve labels represent the pinnacle of industrial label engineering. Made from 100% recyclable, heat-stable film, they support shrinkage up to 78% without smiling, frowning, or graphic distortion. Perfect for contoured health juices, premium dairy beverages, cosmetic bottles, and trigger sprays.",
     specs: [
-      { label: "Substrate", value: "Eco-Friendly PETG Polyester" },
+      { label: "Substrate", value: "Eco-Friendly PET G Film" },
       { label: "Shrinkage Rate", value: "Up to 70% - 78% Max" },
       { label: "Print Process", value: "Narrow-Web Gravure / UV Flexo" },
       { label: "Sustainability", value: "100% Recyclable / Low Carbon" },
@@ -51,9 +51,9 @@ export const productsData = [
     regMark: "REG-BOPP-03",
     detailedDescription: "Engineered for high-volume, high-speed rotary labeling lines. Our BOPP (Biaxially Oriented Polypropylene) wrap-around labels are available in clear, solid opaque white, and metallized finishes. Featuring high tensile strength, outstanding moisture resistance, and scuff protection, these roll-fed labels run smoothly through Hot-Melt labeling lines. Widely preferred for mineral water, soda bottles, and industrial aerosols.",
     specs: [
-      { label: "Substrate", value: "BOPP (Clear, White, Metallic)" },
+      { label: "Substrate", value: "BOPP (Natural & Pearlised)" },
       { label: "Film Thickness", value: "35 to 50 Microns" },
-      { label: "Print Technology", value: "CI Wide-Web Flexo / Offset" },
+      { label: "Print Process", value: "Gravure" },
       { label: "Elongation Strength", value: "High Tensile MD/TD" },
       { label: "Adhesive Match", value: "Hot-Melt Glue System Compatible" },
       { label: "Reel Diameter", value: "Up to 600mm / 3-inch core" }
@@ -92,8 +92,8 @@ export const productsData = [
     detailedDescription: "Our plain PVC shrink film is engineered for versatile packaging applications. Available in both layflat and centerfold rolls, it provides high clarity, excellent dust protection, and high shrinkage rates at lower temperatures. Ideal for bulk packaging, multi-pack promotional bundles, retail boxes, and tamper-evident wrapping.",
     specs: [
       { label: "Substrate", value: "Premium Grade Plain PVC" },
-      { label: "Shrinkage Rate", value: "Up to 50% - 55%" },
-      { label: "Format", value: "Rolls / Centerfold" },
+      { label: "Shrinkage Rate", value: "Up to 40% - 45%" },
+      { label: "Format", value: "Roll Form & Cut Pieces (As per Requirement)" },
       { label: "Layflat Range", value: "30mm to 600mm" },
       { label: "Material Thickness", value: "25 to 75 Microns" },
       { label: "Appearance", value: "Super Clear / High Gloss" }
