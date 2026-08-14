@@ -19,7 +19,7 @@ const Footer = () => {
             <div className={styles.logoWrapper}>
               <Link href="/" className={styles.logoLink}>
                 <Image
-                  src="/logo/san.png"
+                  src="/logo/world_map_blueprint.png"
                   alt="Parth Printtech Logo"
                   className={styles.logoImageRaw}
                   width={260}
