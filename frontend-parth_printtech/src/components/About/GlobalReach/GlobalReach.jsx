@@ -14,7 +14,7 @@ const countriesData = [
     id: "in",
     name: "India",
     role: "Manufacturing & Domestic HQ",
-    description: "Main production facilities handling high-volume offset printing, mono cartons, and rigid boxes.",
+    description: "Main production facilities handling high-volume gravure printing, mono cartons, and rigid boxes.",
     coords: { x: "69%", y: "48%" },
     stats: [
       { label: "Facilities", value: "2 Production Hubs" },
@@ -203,7 +203,7 @@ const GlobalReach = () => {
             Serving Clients <span className={styles.accentText}>Worldwide</span>
           </h2>
           <p className={`${styles.description} reach-header-reveal`}>
-            Exporting high-quality offset print and premium custom packaging solutions directly to major international markets.
+            Exporting high-quality gravure print and premium custom packaging solutions directly to major international markets.
           </p>
         </div>
 

@@ -48,7 +48,7 @@ const ContactPage = () => {
         if (lower.includes("rigid") || lower.includes("luxury")) {
           mappedSubject = "Rigid Boxes";
         } else if (lower.includes("label") || lower.includes("sticker") || lower.includes("print")) {
-          mappedSubject = "Offset Printing";
+          mappedSubject = "Gravure Printing";
         }
         updatedData.subject = mappedSubject;
       }
@@ -108,7 +108,7 @@ const ContactPage = () => {
               Let&apos;s craft <span className={styles.accentText}>something remarkable</span> together
             </h1>
             <p className={styles.description}>
-              Have a custom packaging design in mind or require offset printing specs? Our packaging specialists are ready to calibrate your next project.
+              Have a custom packaging design in mind or require gravure printing specs? Our packaging specialists are ready to calibrate your next project.
             </p>
           </div>
 
@@ -311,7 +311,7 @@ const ContactPage = () => {
                         className={styles.selectInput}
                       >
                         <option value="Custom Packaging">Custom Packaging Design</option>
-                        <option value="Offset Printing">Commercial Offset Printing</option>
+                        <option value="Gravure Printing">Commercial Gravure Printing</option>
                         <option value="Rigid Boxes">Rigid Luxury Box Calibration</option>
                         <option value="General Query">General Partnership Inquiry</option>
                       </select>

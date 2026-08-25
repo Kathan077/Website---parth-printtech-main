@@ -59,7 +59,7 @@ const categories = [
     photo: "/images/products/petg_shrink_sleeves.png",
     frameShape: "shapeWrap",
     specs: [
-      { label: "Substrate", value: "Eco-Friendly PET G Film" },
+      { label: "Substrate", value: "Recyclable PET G Film" },
       { label: "Shrinkage Rate", value: "Up to 70% - 78% Max" },
       { label: "Print Process", value: "Narrow-Web Gravure / UV Flexo" },
       { label: "Sustainability", value: "100% Recyclable / Low Carbon" }
@@ -509,7 +509,7 @@ const productUsesData = [
     ],
     specs: [
       { label: "Shrink Ratio", value: "Up to 78% Max Shrinkage" },
-      { label: "Substrate", value: "PETG Eco-Friendly Polyester" },
+      { label: "Substrate", value: "Recyclable PET G Film" },
       { label: "Heat Process", value: "Tunnel Shrink Optimized" },
       { label: "Visual Effect", value: "3D Holographic & Foil Finishes" }
     ]
@@ -1250,7 +1250,7 @@ const PremiumMarketsWeServe = () => {
               <div className={styles.seoBlock}>
                 <h3 className={styles.seoBlockHeading}>Customization Options</h3>
                 <p className={styles.seoBlockText}>
-                  Every brand is unique, which is why we offer extensive material options and customization capabilities. Choose from waterproof BOPP vinyl, eco-friendly kraft papers, metallic foils, or clear transparent sheets for a "no-label" look. Our printing technologies include high-fidelity Heidelberg offset printing and precision digital printing. You can select custom shapes, sizes, adhesive strengths (permanent, removable, or freezer-grade), and matte or glossy protective laminations.
+                  Every brand is unique, which is why we offer extensive material options and customization capabilities. Choose from waterproof BOPP vinyl, eco-friendly kraft papers, metallic foils, or clear transparent sheets for a "no-label" look. Our printing technologies include high-fidelity gravure printing and precision digital printing. You can select custom shapes, sizes, adhesive strengths (permanent, removable, or freezer-grade), and matte or glossy protective laminations.
                 </p>
               </div>
 

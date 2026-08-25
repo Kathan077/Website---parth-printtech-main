@@ -31,7 +31,7 @@ export const productsData = [
     regMark: "REG-PETG-02",
     detailedDescription: "For products requiring extreme shrinkage profiles and absolute clarity, our PETG (Polyethylene Terephthalate Glycol) sleeve labels represent the pinnacle of industrial label engineering. Made from 100% recyclable, heat-stable film, they support shrinkage up to 78% without smiling, frowning, or graphic distortion. Perfect for contoured health juices, premium dairy beverages, cosmetic bottles, and trigger sprays.",
     specs: [
-      { label: "Substrate", value: "Eco-Friendly PET G Film" },
+      { label: "Substrate", value: "Recyclable PET G Film" },
       { label: "Shrinkage Rate", value: "Up to 70% - 78% Max" },
       { label: "Print Process", value: "Narrow-Web Gravure / UV Flexo" },
       { label: "Sustainability", value: "100% Recyclable / Low Carbon" },

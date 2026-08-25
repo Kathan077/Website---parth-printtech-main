@@ -172,7 +172,7 @@ const CareerApply = ({ selectedRole = "", onChangeRole }) => {
                     <option>Packaging Design Engineer</option>
                     <option>Quality Control & Inspection Lead</option>
                     <option>Sales Executive – Print & Packaging</option>
-                    <option>Offset Press Operator</option>
+                    <option>Gravure Press Operator</option>
                     <option>Graphic Design Specialist (Pre-press)</option>
                     <option>Supply Chain & Procurement Manager</option>
                     <option>HR & Talent Acquisition Executive</option>

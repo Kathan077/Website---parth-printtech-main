@@ -96,7 +96,7 @@ const WhoWeAre = () => {
 
           <div className={`${styles.descriptionWrapper} reveal-text`}>
             <p className={styles.description}>
-              We are not just a printing press. We are architects of packaging and masters of color. By merging traditional craftsmanship with next-generation offset technology, we turn your boldest ideas into physical masterpieces that demand attention.
+              We are not just a printing press. We are architects of packaging and masters of color. By merging traditional craftsmanship with next-generation gravure technology, we turn your boldest ideas into physical masterpieces that demand attention.
             </p>
             <div className={styles.statsContainer}>
               <div className={styles.flipCard}>

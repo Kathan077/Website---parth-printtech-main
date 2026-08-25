@@ -33,7 +33,7 @@ const productsData = [
     image: "/images/products/petg_shrink_sleeves.png",
     accentColor: "#e3007b",
     specs: [
-      { label: "Substrate", value: "Eco-Friendly PET G Film" },
+      { label: "Substrate", value: "Recyclable PET G Film" },
       { label: "Shrinkage Rate", value: "Up to 70% - 78% Max" },
       { label: "Print Process", value: "Gravure / UV Flexo" },
       { label: "Sustainability", value: "100% Recyclable" }

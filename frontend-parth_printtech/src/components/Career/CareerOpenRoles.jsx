@@ -66,7 +66,7 @@ const allRoles = [
   },
   {
     id: "5",
-    title: "Offset Press Operator",
+    title: "Gravure Press Operator",
     dept: "Production",
     location: "Gujarat, India",
     type: "Full-time",

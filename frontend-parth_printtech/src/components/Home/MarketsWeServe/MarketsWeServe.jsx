@@ -253,7 +253,7 @@ const MarketsWeServe = () => {
             Markets We <span className={styles.outlinedText}>Serve</span>
           </h2>
           <p className={styles.description}>
-            We combine high-precision offset printing and customized packaging prototypes to deliver premium solutions across diverse industrial sectors.
+            We combine high-precision gravure printing and customized packaging prototypes to deliver premium solutions across diverse industrial sectors.
           </p>
         </div>
 

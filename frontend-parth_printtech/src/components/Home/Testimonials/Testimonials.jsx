@@ -37,7 +37,7 @@ const row1Testimonials = [
     client: "Dr. Vikram Mehta",
     role: "QA Director",
     company: "Zenith Pharmaceuticals",
-    quote: "Regulatory compliance printing demands absolute precision. Parth's automated Heidelberg offset presses guarantee zero-defect medicine boxes.",
+    quote: "Regulatory compliance printing demands absolute precision. Parth's automated advanced gravure printing presses guarantee zero-defect medicine boxes.",
     rating: 5,
     avatarColor: "#00bcd4"
   }
