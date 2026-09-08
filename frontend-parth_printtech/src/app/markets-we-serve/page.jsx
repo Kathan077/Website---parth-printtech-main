@@ -223,7 +223,7 @@ const featuredProducts = [
   },
   {
     id: "petg-shrink-sleeves",
-    title: "Eco-Friendly PETG Clarity",
+    title: "Recyclable PETG Clarity",
     desc: "Ultra-clear polyester films offering extreme shrinkage profiles and minimal carbon footprint for sustainability.",
     metric: "100% Recyclable Polyester",
     accent: "#e3007b",

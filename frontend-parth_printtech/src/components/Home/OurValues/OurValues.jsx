@@ -45,8 +45,8 @@ const valuesList = [
   },
   {
     id: 3,
-    title: "Eco-Friendly Print",
-    description: "Committed to sustainable film sourcing, eco-friendly ink systems, and 100% recyclable polyester (PETG) shrink sleeves.",
+    title: "Recyclable Print",
+    description: "Committed to sustainable film sourcing, Recyclable  systems, and 100% recyclable polyester (PETG) shrink sleeves.",
     icon: (
       <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.58 1 9.8A7 7 0 0 1 11 20z" />
