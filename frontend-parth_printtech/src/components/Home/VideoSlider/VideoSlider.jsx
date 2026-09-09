@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import gsap from "gsap";
+import Link from "next/link";
 import styles from "./VideoSlider.module.css";
 
 const slides = [
@@ -129,9 +130,9 @@ const VideoSlider = () => {
             <p className={styles.subtitle} ref={subtitleRef}>
               {slides[currentSlide].subtitle}
             </p>
-            <button className={styles.ctaButton}>
+            <Link href="/products" className={styles.ctaButton}>
               Explore Services
-            </button>
+            </Link>
           </div>
         </div>
 

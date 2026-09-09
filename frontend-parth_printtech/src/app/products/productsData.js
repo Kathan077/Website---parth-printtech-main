@@ -13,7 +13,7 @@ export const productsData = [
     specs: [
       { label: "Substrate", value: "High-Grade PVC Film" },
       { label: "Shrinkage Rate", value: "Up to 50% - 58%" },
-      { label: "Print Process", value: "Rotogravure / High-Def Flexo" },
+      { label: "Print Process", value: "High-Precision Rotogravure" },
       { label: "Finishing Option", value: "Gloss / Matte / Metallic Ink" },
       { label: "Material Thickness", value: "35 to 50 Microns" },
       { label: "Layflat Range", value: "20mm to 350mm" }
@@ -33,7 +33,7 @@ export const productsData = [
     specs: [
       { label: "Substrate", value: "Recyclable PET G Film" },
       { label: "Shrinkage Rate", value: "Up to 70% - 78% Max" },
-      { label: "Print Process", value: "Narrow-Web Gravure / UV Flexo" },
+      { label: "Print Process", value: "Multicolor Rotogravure" },
       { label: "Sustainability", value: "100% Recyclable / Low Carbon" },
       { label: "Thickness Options", value: "40 to 50 Microns" },
       { label: "Print Finishes", value: "Soft-touch Matte / Spot Holographic" }
@@ -65,7 +65,7 @@ export const productsData = [
     category: "Heat Transfer Labels",
     title: "Heat Transfer Labels (HTL)",
     description: "Dry-fusion decoration labels that permanently bond graphics to plastic containers, creating a seamless, scratch-proof 'no-label' look.",
-    image: "/images/products/htl_label_rolls.png",
+    image: "/images/products/htl_label_buckets.jpg",
     accentColor: "#111111",
     dim: "Custom Fusion Profile",
     regMark: "REG-HTL-04",

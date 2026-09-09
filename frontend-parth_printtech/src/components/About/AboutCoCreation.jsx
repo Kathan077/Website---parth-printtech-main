@@ -70,7 +70,7 @@ const caseStudies = [
       { label: "Chemical Resist", value: "100% Waterproof" },
       { label: "Carrier Film", value: "Siliconized PET Foil" }
     ],
-    image: "/images/products/htl_label_rolls.png",
+    image: "/images/products/htl_label_buckets.jpg",
     dielineSvg: (
       <svg viewBox="0 0 300 220" fill="none" stroke="#009fe3" strokeWidth="1.2">
         <rect width="100%" height="100%" fill="rgba(0, 159, 227, 0.03)" stroke="rgba(0, 159, 227, 0.15)" rx="6" />

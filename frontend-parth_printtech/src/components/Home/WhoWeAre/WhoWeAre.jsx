@@ -88,15 +88,15 @@ const WhoWeAre = () => {
           </div>
 
           <h2 className={styles.heading}>
-            <div className="reveal-text">Redefining The</div>
+            <div className="reveal-text">Architects Of</div>
             <div className="reveal-text">
-              <span className={styles.outlinedText}>Art</span> Of Printing.
+              <span className={styles.outlinedText}>Rotogravure</span> Packaging.
             </div>
           </h2>
 
           <div className={`${styles.descriptionWrapper} reveal-text`}>
             <p className={styles.description}>
-              We are not just a printing press. We are architects of packaging and masters of color. By merging traditional craftsmanship with next-generation gravure technology, we turn your boldest ideas into physical masterpieces that demand attention.
+              We are not just a printing press. We are architects of packaging and masters of color. By merging precision engineering with next generation rotogravure printing technology, we turn your boldest ideas into physical masterpieces that demand attention.
             </p>
             <div className={styles.statsContainer}>
               <div className={styles.flipCard}>

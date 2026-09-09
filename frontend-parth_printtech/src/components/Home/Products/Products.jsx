@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import styles from "./Products.module.css";
@@ -21,7 +22,7 @@ const productsData = [
     specs: [
       { label: "Substrate", value: "High-Grade PVC Film" },
       { label: "Shrinkage Rate", value: "Up to 50% - 58%" },
-      { label: "Print Process", value: "Rotogravure / High-Def Flexo" },
+      { label: "Print Process", value: "High-Precision Rotogravure" },
       { label: "Layflat Range", value: "20mm to 350mm" }
     ]
   },
@@ -29,13 +30,13 @@ const productsData = [
     id: "02",
     category: "Shrink Sleeves",
     title: "PETG Shrink Sleeves",
-    description: "The pinnacle of shrink label engineering. Made from eco-friendly, recyclable polyester film, these sleeves yield up to 78% shrinkage for heavily contoured containers with absolute clarity.",
+    description: "The pinnacle of shrink label engineering. Made from eco-friendly, PETG film these sleeves yield up to 78% shrinkage for heavily contoured containers with absolute clarity.",
     image: "/images/products/petg_shrink_sleeves.png",
     accentColor: "#e3007b",
     specs: [
       { label: "Substrate", value: "Recyclable PET G Film" },
       { label: "Shrinkage Rate", value: "Up to 70% - 78% Max" },
-      { label: "Print Process", value: "Gravure / UV Flexo" },
+      { label: "Print Process", value: "Multicolor Rotogravure" },
       { label: "Sustainability", value: "100% Recyclable" }
     ]
   },
@@ -58,7 +59,7 @@ const productsData = [
     category: "Heat Transfer Labels",
     title: "Heat Transfer Labels (HTL)",
     description: "Experience permanent dry-fusion graphic decoration. Using heat and pressure, graphics bond directly to containers, achieving a seamless 'no-label' look with high chemical and scratch resistance.",
-    image: "/images/products/htl_label_rolls.png",
+    image: "/images/products/htl_label_buckets.jpg",
     accentColor: "#111111",
     specs: [
       { label: "Carrier Film", value: "Coated PET Carrier Foil" },
@@ -208,10 +209,10 @@ const Products = () => {
         {/* Section Header */}
         <div className={styles.header}>
           <h2 className={`${styles.title} product-header-reveal`}>
-            Engineered Print <span className={styles.outlinedText}>Solutions</span>
+            Premium Shrink Sleeve & Label <span className={styles.outlinedText}>Solutions</span>
           </h2>
           <p className={`${styles.description} product-header-reveal`}>
-            Explore our core print and packaging offerings, built with state-of-the-art machinery and premium finishing operations.
+            Explore our core shrink sleeves, wrap-around labels, and high-performance film packaging engineered with rotogravure precision.
           </p>
         </div>
 
@@ -260,13 +261,13 @@ const Products = () => {
                   </div>
 
                   {/* Configure / Request Quote CTA button */}
-                  <button className={styles.configureBtn} style={{ "--hover-accent": prod.accentColor }}>
+                  <Link href={`/contact?subject=Inquiry for ${prod.title}`} className={styles.configureBtn} style={{ "--hover-accent": prod.accentColor }}>
                     Configure & Request Quote
                     <svg className={styles.btnArrow} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                       <line x1="5" y1="12" x2="19" y2="12"></line>
                       <polyline points="12 5 19 12 12 19"></polyline>
                     </svg>
-                  </button>
+                  </Link>
                 </div>
               </div>
             );

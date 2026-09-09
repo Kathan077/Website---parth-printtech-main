@@ -323,7 +323,7 @@ const workflowSteps = [
   { step: "02", title: "Upload Artwork", desc: "Drag and drop your vector design assets (PDF, AI, or EPS) directly to our server." },
   { step: "03", title: "Customize Options", desc: "Select specific substrate materials, grades, size contours, and specialty finishes." },
   { step: "04", title: "Approve Design", desc: "Receive high-fidelity digital proofs calibrated by our pre-flight engineering teams." },
-  { step: "05", title: "Print Production", desc: "Your order goes to flexographic or high-capacity digital printing presses." },
+  { step: "05", title: "Print Production", desc: "Your order goes to high-capacity rotogravure printing presses." },
   { step: "06", title: "Delivery", desc: "Securely packed rolls or die-cut label sheets ship directly to your site location." }
 ];
 
@@ -1250,7 +1250,7 @@ const PremiumMarketsWeServe = () => {
               <div className={styles.seoBlock}>
                 <h3 className={styles.seoBlockHeading}>Customization Options</h3>
                 <p className={styles.seoBlockText}>
-                  Every brand is unique, which is why we offer extensive material options and customization capabilities. Choose from waterproof BOPP vinyl, eco-friendly kraft papers, metallic foils, or clear transparent sheets for a "no-label" look. Our printing technologies include high-fidelity gravure printing and precision digital printing. You can select custom shapes, sizes, adhesive strengths (permanent, removable, or freezer-grade), and matte or glossy protective laminations.
+                  Every brand is unique, which is why we offer extensive material options and customization capabilities. Choose from waterproof BOPP vinyl, eco-friendly films, metallic foils, or clear transparent sheets for a "no-label" look. Our printing technologies feature high-fidelity rotogravure printing. You can select custom shapes, sizes, adhesive strengths, and matte or glossy protective laminations.
                 </p>
               </div>
 

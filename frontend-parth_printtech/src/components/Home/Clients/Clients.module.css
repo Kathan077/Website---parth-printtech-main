@@ -124,7 +124,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px; /* Scaled down padding */
+  padding: 14px; /* Scaled down padding */
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03); /* Soft subtle shadow */
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -135,15 +135,10 @@
   box-shadow: 0 20px 40px rgba(0, 159, 227, 0.08);
 }
 
-.logoSvg {
+.clientLogoImage {
   width: 100%;
-  height: auto;
-  opacity: 0.85;
-  transition: opacity 0.3s ease;
-}
-
-.logoCard:hover .logoSvg {
-  opacity: 1;
+  height: 100%;
+  object-fit: contain;
 }
 
 /* Vertical translation keyframes */
