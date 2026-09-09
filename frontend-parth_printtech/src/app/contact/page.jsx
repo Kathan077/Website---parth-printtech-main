@@ -145,6 +145,9 @@ const ContactPage = () => {
                   <a href="tel:+919978888056" className={styles.cardLink}>
                     +91 99788 88056
                   </a>
+                  <a href="tel:+919724777606" className={styles.cardLink}>
+                    +91 97247 77606
+                  </a>
                   <p className={styles.cardHint}>Mon - Sat, 9am - 7pm IST</p>
                 </div>
               </div>

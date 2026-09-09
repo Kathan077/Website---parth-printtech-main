@@ -150,6 +150,12 @@
   gap: 12px;
 }
 
+.phoneGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
 .contactIcon {
   width: 18px;
   height: 18px;
