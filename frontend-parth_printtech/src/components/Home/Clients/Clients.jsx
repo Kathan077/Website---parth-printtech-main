@@ -24,7 +24,7 @@ const clientLogos = [
   {
     id: "gokul",
     name: "Gokul Sweets",
-    logoSrc: "/logo/gokul.webp"
+    logoSrc: "/logo/gokul.png"
   }
 ];
 
