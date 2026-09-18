@@ -81,7 +81,7 @@ const categories = [
     badge: "Waterproof",
     bgGradient: "linear-gradient(135deg, #fefce8 0%, #fef08a 100%)",
     accentColor: "#ffd400",
-    photo: "/images/products/bopp_label.webp",
+    photo: "/images/products/ChatGPT Image Sep 18, 2026, 05_07_28 PM.png",
     frameShape: "shapeHexagon",
     specs: [
       { label: "Substrate", value: "BOPP (Natural & Pearlised)" },
@@ -235,7 +235,7 @@ const featuredProducts = [
     desc: "Tensile-strength biaxially-oriented polypropylene roll-fed labels designed for seamless high-speed Hot-Melt labeling lines.",
     metric: "Zero-tear rotary speed",
     accent: "#ffd400",
-    photo: "/images/products/bopp_label.webp"
+    photo: "/images/products/ChatGPT Image Sep 18, 2026, 05_07_28 PM.png"
   },
   {
     id: "heat-transfer-labels",
@@ -382,7 +382,7 @@ const productUsesData = [
     subtitle: "High-Volume Mineral Water & Soda Bottling",
     badge: "High-Speed Rotary",
     accentColor: "#ffd400",
-    photo: "/images/products/bopp_label.webp",
+    photo: "/images/products/ChatGPT Image Sep 18, 2026, 05_07_28 PM.png",
     containerType: "PET Cylindrical Bottles",
 
     uses: [

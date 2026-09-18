@@ -101,7 +101,7 @@ const AboutHero = () => {
               <div className={`${styles.collageCard} ${styles.primaryCard} collage-item`}>
                 <div className={styles.wireframeBorder}></div>
                 <img
-                  src="/images/Who_We_Are.jpg"
+                 src="/images/marketplace/Screenshot 2026-09-18 164510.png"
                   alt="Rotogravure printing press in action"
                   className={styles.collageImg}
                 />

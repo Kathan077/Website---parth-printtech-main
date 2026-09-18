@@ -45,7 +45,7 @@ export const productsData = [
     category: "Wrap-Around Labels",
     title: "BOPP Wrap-Around Labels",
     description: "High-speed roll-fed BOPP wrap-around labels with superior water/scuff resistance, ideal for mineral water and carbonated drinks.",
-    image: "/images/products/bopp_label.webp",
+    image: "/images/products/ChatGPT Image Sep 18, 2026, 05_07_28 PM.png",
     accentColor: "#ffd400",
     dim: "Roll Format / Cut-and-Stack",
     regMark: "REG-BOPP-03",

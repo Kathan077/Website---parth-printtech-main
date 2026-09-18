@@ -162,7 +162,7 @@ const AboutWhoWeAre = () => {
             <div className={`${styles.imageFrame} ab-who-reveal`}>
               <div className={styles.wireframeBorder}></div>
               <img
-                src="/images/Who_We_Are.jpg"
+                src="/images/marketplace/Screenshot 2026-09-18 164510.png"
                 alt="Parth Printtech State-of-the-art facility"
                 className={styles.facilityImage}
               />

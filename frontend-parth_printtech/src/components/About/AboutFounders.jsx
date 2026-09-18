@@ -131,7 +131,7 @@ const AboutFounders = () => {
               <div className={styles.founderHeader}>
                 <span className={styles.founderIndex}>02</span>
                 <div>
-                  <h3 className={styles.founderName}>Sanjay Patel</h3>
+                  <h3 className={styles.founderName}>Shailesh Patel</h3>
 
                 </div>
               </div>

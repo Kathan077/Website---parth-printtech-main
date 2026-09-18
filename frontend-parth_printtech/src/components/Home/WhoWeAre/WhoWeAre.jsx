@@ -134,7 +134,7 @@ const WhoWeAre = () => {
               {/* Using a highly professional placeholder image */}
               <img
                 className={`${styles.mediaElement} creative-media`}
-                src="/images/Who_We_Are.jpg"
+                src="/images/marketplace/Screenshot 2026-09-18 164510.png"
                 alt="Premium Printing"
               />
             </div>
