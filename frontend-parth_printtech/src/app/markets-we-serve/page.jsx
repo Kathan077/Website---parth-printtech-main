@@ -56,7 +56,7 @@ const categories = [
     badge: "Eco Clarity",
     bgGradient: "linear-gradient(135deg, #fdf2f8 0%, #fbcfe8 100%)",
     accentColor: "#e3007b",
-    photo: "/images/products/petg_shrink_sleeves.png",
+    photo: "/images/products/petg_shrink_sleeves.jpg",
     frameShape: "shapeWrap",
     specs: [
       { label: "Substrate", value: "Recyclable PET G Film" },
@@ -81,7 +81,7 @@ const categories = [
     badge: "Waterproof",
     bgGradient: "linear-gradient(135deg, #fefce8 0%, #fef08a 100%)",
     accentColor: "#ffd400",
-    photo: "/images/products/bopp_label.png",
+    photo: "/images/products/bopp_label.webp",
     frameShape: "shapeHexagon",
     specs: [
       { label: "Substrate", value: "BOPP (Natural & Pearlised)" },
@@ -104,8 +104,8 @@ const categories = [
     ),
     badge: "Dry Fusion",
     bgGradient: "linear-gradient(135deg, #f1f5f9 0%, #cbd5e1 100%)",
-    accentColor: "#111111",
-    photo: "/images/products/htl_label_rolls.png",
+    accentColor: "#009fe3",
+    photo: "/images/products/ChatGPT Image Sep 18, 2026, 03_08_38 PM.png",
     frameShape: "shapeCad",
     specs: [
       { label: "Carrier Film", value: "Specially Coated PET Carrier" },
@@ -130,7 +130,7 @@ const categories = [
     badge: "Plain Film",
     bgGradient: "linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%)",
     accentColor: "#4f46e5",
-    photo: "/images/products/pvc_lamination_films.png",
+    photo: "/images/products/plain_pvc_shrink_film.jpg",
     frameShape: "shapeWrap",
     specs: [
       { label: "Substrate", value: "Premium Grade Plain PVC" },
@@ -227,7 +227,7 @@ const featuredProducts = [
     desc: "Ultra-clear polyester films offering extreme shrinkage profiles and minimal carbon footprint for sustainability.",
     metric: "100% Recyclable Polyester",
     accent: "#e3007b",
-    photo: "/images/products/petg_shrink_sleeves.png"
+    photo: "/images/products/petg_shrink_sleeves.jpg"
   },
   {
     id: "bopp-wrap-around-labels",
@@ -235,15 +235,15 @@ const featuredProducts = [
     desc: "Tensile-strength biaxially-oriented polypropylene roll-fed labels designed for seamless high-speed Hot-Melt labeling lines.",
     metric: "Zero-tear rotary speed",
     accent: "#ffd400",
-    photo: "/images/products/bopp_label.png"
+    photo: "/images/products/bopp_label.webp"
   },
   {
     id: "heat-transfer-labels",
     title: "Permanent Dry-Fusion Finish",
     desc: "Direct decoration fused into plastic packaging with heat and pressure, leaving no sticky residue or label edges.",
     metric: "Chemical & scratch-proof",
-    accent: "#111111",
-    photo: "/images/products/htl_label_rolls.png"
+    accent: "#009fe3",
+    photo: "/images/products/ChatGPT Image Sep 18, 2026, 03_08_38 PM.png"
   },
   {
     id: "plain-pvc-shrink-film",
@@ -251,7 +251,7 @@ const featuredProducts = [
     desc: "Super-clear unprinted PVC shrink films offering high dust/humidity protection and low-temperature uniform shrinkage.",
     metric: "High-speed wrap stability",
     accent: "#4f46e5",
-    photo: "/images/products/pvc_lamination_films.png"
+    photo: "/images/products/plain_pvc_shrink_film.jpg"
   }
 ];
 
@@ -382,7 +382,7 @@ const productUsesData = [
     subtitle: "High-Volume Mineral Water & Soda Bottling",
     badge: "High-Speed Rotary",
     accentColor: "#ffd400",
-    photo: "/images/products/bopp_label.png",
+    photo: "/images/products/bopp_label.webp",
     containerType: "PET Cylindrical Bottles",
 
     uses: [
@@ -410,7 +410,7 @@ const productUsesData = [
     subtitle: "Cosmetics, Personal Care & Luxury Jars",
     badge: "Seamless Fusion",
     accentColor: "#e3007b",
-    photo: "/images/products/htl_label_rolls.png",
+    photo: "/images/products/ChatGPT Image Sep 18, 2026, 03_08_38 PM.png",
     containerType: "PP, PE, Acrylic & Glass Jars",
    
     uses: [
@@ -438,7 +438,7 @@ const productUsesData = [
     subtitle: "Pharma Vials, Syringes & Vaccine Bottles",
     badge: "Healthcare Grade",
     accentColor: "#10b981",
-    photo: "/images/products/petg_shrink_sleeves.png",
+    photo: "/images/products/petg_shrink_sleeves.jpg",
     containerType: "Glass Vials, PET Syrup Bottles & Syringes",
    
     uses: [
@@ -466,7 +466,7 @@ const productUsesData = [
     subtitle: "Industrial Drums, Oil Cans & Agrochemical Jugs",
     badge: "Industrial Duty",
     accentColor: "#f59e0b",
-    photo: "/images/products/pvc_lamination_films.png",
+    photo: "/images/products/plain_pvc_shrink_film.jpg",
     containerType: "HDPE Jerricans, Drums & Lubricant Cans",
     uses: [
       "Motor Oil & Engine Lubricant Cans",
@@ -493,7 +493,7 @@ const productUsesData = [
     subtitle: "Personal Deodorants, Sprays & Metal Cans",
     badge: "Metal Can Branding",
     accentColor: "#8b5cf6",
-    photo: "/images/products/petg_shrink_sleeves.png",
+    photo: "/images/products/petg_shrink_sleeves.jpg",
     containerType: "Aluminum Cans & Tinplate Aerosols",
 
     uses: [
@@ -749,7 +749,7 @@ const PremiumMarketsWeServe = () => {
                   </div>
                   <div className={styles.mockupPhotoFrame} style={{ borderRadius: "16px", borderBottom: "4px solid #e3007b" }}>
                     <Image
-                      src="/images/products/petg_shrink_sleeves.png"
+                      src="/images/products/petg_shrink_sleeves.jpg"
                       alt="PETG Shrink Sleeve"
                       fill
                       sizes="160px"
@@ -768,7 +768,7 @@ const PremiumMarketsWeServe = () => {
                   </div>
                   <div className={styles.mockupPhotoFrame} style={{ borderRadius: "8px 24px 8px 24px", borderLeft: "4px solid #ffd400", aspectRatio: "16/9" }}>
                     <Image
-                      src="/images/products/bopp_label.png"
+                      src="/images/products/bopp_label.webp"
                       alt="BOPP Wrap-Around Label"
                       fill
                       sizes="200px"

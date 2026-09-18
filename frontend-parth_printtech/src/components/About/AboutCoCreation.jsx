@@ -47,7 +47,7 @@ const caseStudies = [
       { label: "Line Speed", value: "45,000 bottles / hr" },
       { label: "Thickness", value: "38 Microns" }
     ],
-    image: "/images/products/bopp_label.png",
+    image: "/images/products/bopp_label.webp",
     dielineSvg: (
       <svg viewBox="0 0 300 220" fill="none" stroke="#009fe3" strokeWidth="1.2">
         <rect width="100%" height="100%" fill="rgba(0, 159, 227, 0.03)" stroke="rgba(0, 159, 227, 0.15)" rx="6" />
@@ -70,7 +70,7 @@ const caseStudies = [
       { label: "Chemical Resist", value: "100% Waterproof" },
       { label: "Carrier Film", value: "Siliconized PET Foil" }
     ],
-    image: "/images/products/htl_label_buckets.jpg",
+    image: "/images/products/ChatGPT Image Sep 18, 2026, 03_08_38 PM.png",
     dielineSvg: (
       <svg viewBox="0 0 300 220" fill="none" stroke="#009fe3" strokeWidth="1.2">
         <rect width="100%" height="100%" fill="rgba(0, 159, 227, 0.03)" stroke="rgba(0, 159, 227, 0.15)" rx="6" />

@@ -6,83 +6,13 @@ import Link from "next/link";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import styles from "./Products.module.css";
+import { productsData } from "@/app/products/productsData";
 
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
 }
 
-const productsData = [
-  {
-    id: "01",
-    category: "Shrink Sleeves",
-    title: "PVC Shrink Sleeves",
-    description: "Conform your packaging graphics seamlessly to complex container contours. Our high-precision PVC shrink sleeve labels offer 360-degree design coverage, high moisture resistance, and tamper-evident sealing.",
-    image: "/images/products/pvc_shrink_sleeves.png",
-    accentColor: "#009fe3",
-    specs: [
-      { label: "Substrate", value: "High-Grade PVC Film" },
-      { label: "Shrinkage Rate", value: "Up to 50% - 58%" },
-      { label: "Print Process", value: "High-Precision Rotogravure" },
-      { label: "Layflat Range", value: "20mm to 350mm" }
-    ]
-  },
-  {
-    id: "02",
-    category: "Shrink Sleeves",
-    title: "PETG Shrink Sleeves",
-    description: "The pinnacle of shrink label engineering. Made from eco-friendly, PETG film these sleeves yield up to 78% shrinkage for heavily contoured containers with absolute clarity.",
-    image: "/images/products/petg_shrink_sleeves.png",
-    accentColor: "#e3007b",
-    specs: [
-      { label: "Substrate", value: "Recyclable PET G Film" },
-      { label: "Shrinkage Rate", value: "Up to 70% - 78% Max" },
-      { label: "Print Process", value: "Multicolor Rotogravure" },
-      { label: "Sustainability", value: "100% Recyclable" }
-    ]
-  },
-  {
-    id: "03",
-    category: "Wrap-Around Labels",
-    title: "BOPP Wrap-Around Labels",
-    description: "Engineered for high-volume, high-speed rotary labeling lines. Our roll-fed BOPP labels offer superior water resistance and high gloss/matte clarity, ideal for carbonated drinks and bottled water.",
-    image: "/images/products/bopp_label.png",
-    accentColor: "#ffd400",
-    specs: [
-      { label: "Substrate", value: "BOPP (Natural & Pearlised)" },
-      { label: "Film Thickness", value: "35 to 50 Microns" },
-      { label: "Print Process", value: "Gravure" },
-      { label: "Adhesive Match", value: "Hot-Melt Glue System" }
-    ]
-  },
-  {
-    id: "04",
-    category: "Heat Transfer Labels",
-    title: "Heat Transfer Labels (HTL)",
-    description: "Experience permanent dry-fusion graphic decoration. Using heat and pressure, graphics bond directly to containers, achieving a seamless 'no-label' look with high chemical and scratch resistance.",
-    image: "/images/products/htl_label_buckets.jpg",
-    accentColor: "#111111",
-    specs: [
-      { label: "Carrier Film", value: "Coated PET Carrier Foil" },
-      { label: "Ink System", value: "UV Cured / Scratch-Proof" },
-      { label: "Fusion Temp", value: "130°C to 180°C" },
-      { label: "Container Types", value: "PE, PP, PET, PS, Glass" }
-    ]
-  },
-  {
-    id: "05",
-    category: "Shrink Film",
-    title: "Plain PVC Shrink Film",
-    description: "Premium unprinted PVC shrink film rolls for manual or automated wrapping, offering superior clarity, uniform shrinkage, and strong seals.",
-    image: "/images/products/pvc_lamination_films.png",
-    accentColor: "#4f46e5",
-    specs: [
-      { label: "Substrate", value: "Premium Grade Plain PVC" },
-      { label: "Shrinkage Rate", value: "Up to 40% - 45%" },
-      { label: "Format", value: "Roll Form & Cut Pieces (As per Requirement)" },
-      { label: "Appearance", value: "Super Clear / High Gloss" }
-    ]
-  }
-];
+
 
 const Products = () => {
   const containerRef = useRef(null);

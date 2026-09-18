@@ -4,6 +4,7 @@ import React from 'react';
 import Navbar from '@/components/Navbar/Navbar';
 import AboutHero from '@/components/About/AboutHero';
 import AboutWhoWeAre from '@/components/About/AboutWhoWeAre';
+import AboutFounders from '@/components/About/AboutFounders';
 import AboutVisionMission from '@/components/About/AboutVisionMission';
 import AboutHistory from '@/components/About/AboutHistory';
 import Footer from '@/components/Footer/Footer';
@@ -15,6 +16,7 @@ export default function AboutPage() {
       <main style={{ minHeight: '100vh', overflow: 'hidden' }}>
         <AboutHero />
         <AboutWhoWeAre />
+        <AboutFounders />
         <AboutVisionMission />
         <AboutHistory />
       </main>

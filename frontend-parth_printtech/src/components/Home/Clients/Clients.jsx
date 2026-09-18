@@ -14,17 +14,17 @@ const clientLogos = [
   {
     id: "gulab",
     name: "Gulab Oils",
-    logoSrc: "/images/clients/gulab_oils.png"
+    logoSrc: "/logo/gulab_oils.webp"
   },
   {
     id: "flexibond",
     name: "Flexibond",
-    logoSrc: "/images/clients/flexibond.png"
+    logoSrc: "/logo/flexibond.webp"
   },
   {
     id: "gokul",
     name: "Gokul Sweets",
-    logoSrc: "/images/clients/gokul.png"
+    logoSrc: "/logo/gokul.webp"
   }
 ];
 

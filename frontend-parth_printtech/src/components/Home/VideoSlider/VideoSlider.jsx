@@ -8,32 +8,12 @@ import styles from "./VideoSlider.module.css";
 const slides = [
   {
     id: 1,
-    videoSrc: "/videos/VIDEO-1.mp4", 
+    videoSrc: "/videos/0918(1).mp4", 
     title: "High-Precision",
     titleHighlight: "Rotogravure & Flexo",
     subtitle: "Delivering crisp, vivid colors on film rolls with unmatched calibration.",
   },
-  {
-    id: 2,
-    videoSrc: "/videos/VIDEO-2.mp4", 
-    title: "Custom ",
-    titleHighlight: "Label Solutions",
-    subtitle: "Vibrant shrink sleeves and wrap-around labels custom-calibrated to container shapes.",
-  },
-  {
-    id: 3,
-    videoSrc: "/videos/VIDEO-3.mp4", 
-    title: "Premium",
-    titleHighlight: "Shrink Films",
-    subtitle: "Plain and printed packaging films engineered to protect and showcase your products.",
-  },
-  {
-    id: 4,
-    videoSrc: "/videos/VIDEO-4.mp4", 
-    title: "End-to-End",
-    titleHighlight: "Excellence",
-    subtitle: "From digital calibration to finished sleeve rolls, we ensure top-tier quality.",
-  }
+ 
 ];
 
 const VideoSlider = () => {

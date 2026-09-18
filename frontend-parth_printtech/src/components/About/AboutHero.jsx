@@ -111,7 +111,7 @@ const AboutHero = () => {
               <div className={`${styles.collageCard} ${styles.secondaryCard} collage-item`}>
                 <div className={styles.wireframeBorder}></div>
                 <img
-                  src="/images/products/bopp_label.png"
+                  src="/images/products/bopp_label.webp"
                   alt="BOPP Wrap-Around Labels"
                   className={styles.collageImg}
                 />
